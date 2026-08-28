@@ -1,2 +1,2 @@
-Third execution through gh api only.
-No git command was invoked.
+Live ESF capture of gh api upload.
+No git CLI was used.
