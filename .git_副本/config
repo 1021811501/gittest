@@ -1,0 +1,18 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "gittest"]
+	url = git@github.com:1021811501/gittest.git
+	fetch = +refs/heads/*:refs/remotes/gittest/*
+[branch "main"]
+	remote = gittest
+	merge = refs/heads/main
+[pull]
+	rebase = true
+[branch "ghtest"]
+	remote = gittest
+	merge = refs/heads/ghtest
